@@ -1,0 +1,186 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Free CRM login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7591703785,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is allready on login page",
+            "match": {
+              "location": "LoginStepdefinition.user_is_allready_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16390572,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepdefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133515521,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter username",
+            "match": {
+              "location": "LoginStepdefinition.user_enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2356203835,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter password",
+            "match": {
+              "location": "LoginStepdefinition.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7925309458,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on login button",
+            "match": {
+              "location": "LoginStepdefinition.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12061662,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user on home page",
+            "match": {
+              "location": "LoginStepdefinition.user_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1409747682,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepdefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM login feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "D:/workSpace_CucumberFramework/FreeCRMBDDFramework/src/main/java/com/FreeCRMBDDFramework/features/login.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@loginTest"
+      }
+    ]
+  }
+]
