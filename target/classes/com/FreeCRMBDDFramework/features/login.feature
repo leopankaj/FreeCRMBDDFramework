@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@loginTest
+@LoginPageTest
 Feature: Free CRM login feature 
 
 Scenario: Free CRM login Test Scenario
