@@ -40,15 +40,15 @@ public class LoginStepdefinition {
 	 Assert.assertEquals(title, "#1 Free CRM software in the cloud for sales and service");
 	}
 
-	@Then("^user enter username$")
-	public void user_enter_username()  {
-		driver.findElement(By.name("username")).sendKeys("soumya456");
+	@Then("^user enter username as \"(.*)\"$")
+	public void user_enter_username(String arg)  {
+		driver.findElement(By.name("username")).sendKeys(arg);
 	   
 	}
 
-	@Then("^user enter password$")
-	public void user_enter_password() throws InterruptedException  {
-		driver.findElement(By.name("password")).sendKeys("$oumya@12");
+	@Then("^user enter password as \"(.*)\"$")
+	public void user_enter_password_as(String arg) throws InterruptedException  {
+		driver.findElement(By.name("password")).sendKeys(arg);
 	   Thread.sleep(2000);
 	}
 
