@@ -41,14 +41,14 @@ public class LoginStepdefinition {
 	}
 
 	@Then("^user enter username as \"(.*)\"$")
-	public void user_enter_username(String arg)  {
-		driver.findElement(By.name("username")).sendKeys(arg);
+	public void user_enter_username_as(String arg1)  {
+		driver.findElement(By.name("username")).sendKeys(arg1);
 	   
 	}
 
 	@Then("^user enter password as \"(.*)\"$")
-	public void user_enter_password_as(String arg) throws InterruptedException  {
-		driver.findElement(By.name("password")).sendKeys(arg);
+	public void user_enter_password_as(String arg1) throws InterruptedException  {
+		driver.findElement(By.name("password")).sendKeys(arg1);
 	   Thread.sleep(2000);
 	}
 
