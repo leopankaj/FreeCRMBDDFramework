@@ -43,11 +43,11 @@
 #And close the browser
 
 Feature: Free CRM login feature 
-# Scenario without Example keyowrd
+# Scenario with Example keyowrd
 Scenario Outline: Free CRM login Test Scenario
 								
 Given user is allready on login page
-When title of login page is Free CRM
+When title of login page is Free CRM 
 Then user enter username as "<employeeid>"
 And user enter password as "<password>"
 Then click on login button

@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.746106">
-<testcase classname="Free CRM login feature" name="Free CRM login Test Scenario" time="32.746106">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="54.335877">
+<testcase classname="Free CRM create contact" name="Free CRM create new contact Scenario" time="27.874586">
 <system-out><![CDATA[Given user is allready on login page........................................passed
 When title of login page is Free CRM........................................passed
 Then user enter username as "soumya456".....................................passed
 And user enter password as "$oumya@12"......................................passed
 Then click on login button..................................................passed
+Then Go to contacts link and click on new contact...........................passed
+And select title from Title dropdown........................................passed
+And user enter firstname as "Pankaj" and lastName as "Kumar"................passed
+And Click on save button....................................................passed
+Then user on home page......................................................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM create contact" name="Free CRM create new contact Scenario 2" time="26.461291">
+<system-out><![CDATA[Given user is allready on login page........................................passed
+When title of login page is Free CRM........................................passed
+Then user enter username as "soumya456".....................................passed
+And user enter password as "$oumya@12"......................................passed
+Then click on login button..................................................passed
+Then Go to contacts link and click on new contact...........................passed
+And select title from Title dropdown........................................passed
+And user enter firstname as "Raj" and lastName as "Kumar"...................passed
+And Click on save button....................................................passed
 Then user on home page......................................................passed
 And close the browser.......................................................passed
 ]]></system-out>
